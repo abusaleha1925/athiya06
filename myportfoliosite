@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Athiya Tabassum - Portfolio</title>
+</head>
+<style>
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    font-family: 'Helvetica', sans-serif;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+a {
+    color: #333;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+
+</style>
+<body>
+    <header>
+        <h1>Athiya Tabassum</h1>
+        <p>Studying MCA at SIT</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#objectives">Objectives</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#goals">Goals</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Welcome to my portfolio website. I am a student pursuing a Master of Computer Applications (MCA) at SIT. I am passionate about technology and coding, and I'm excited to share my journey with you.</p>
+    </section>
+
+    <section id="objectives">
+        <h2>Objectives</h2>
+        <p>My main objective is to excel in the field of computer science and make a positive impact on the world through technology. I aim to continuously learn, grow, and contribute to meaningful projects.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming Languages: Java, Python, JavaScript</li>
+            <li>Web Development: HTML, CSS, JavaScript</li>
+            <li>Database Management: SQL</li>
+        </ul>
+    </section>
+
+    <section id="hobbies">
+        <h2>Hobbies</h2>
+        <p>In my free time, I enjoy coding, exploring new programming languages, and working on personal projects. I also love reading, painting, and outdoor activities like hiking and cycling.</p>
+    </section>
+
+    <section id="goals">
+        <h2>Goals</h2>
+        <p>My primary goal is to graduate with a strong academic record and gain practical experience in the software development industry. I aspire to become a skilled software engineer and build innovative solutions that benefit society.</p>
+    </section>
+
+    <footer>
+        <p>Contact me at: <a href="mailto:your.email@example.com">9876543210</a></p>
+    </footer>
+</body>
+</html>
